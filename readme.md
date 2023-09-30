@@ -61,26 +61,6 @@ cd frontend
 npm install
 ```
 
-### Run
-
-At the root folder (outside `frontend` and `backend` folder)
-
-```
-
-# Run frontend (:3000) & backend (:5000)
-npm run dev
-
-# Run backend only
-npm run server
-```
-
-## Build & Deploy
-
-```
-# Create frontend prod build
-npm run build
-```
-
 ### Seed Database
 
 You can use the following commands to seed the database with some sample users and products as well as destroy all data
@@ -104,4 +84,24 @@ john@email.com (Customer)
 
 jane@email.com (Customer)
 123456
+```
+
+### Run
+
+At the root folder (outside `frontend` and `backend` folder)
+
+```
+
+# Run frontend (:3000) & backend (:5000)
+npm run dev
+
+# Run backend only
+npm run server
+```
+
+## Build & Deploy
+
+```
+# Create frontend prod build
+npm run build
 ```
