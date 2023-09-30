@@ -12,9 +12,9 @@ This project is a simple eCommerce  website with shopping cart and authenticaito
   * [Usage](#usage)
     + [Env Variables](#env-variables)
     + [Install Dependencies (frontend & backend)](#install-dependencies-frontend--backend)
+    + [Seed Database](#seed-database)
     + [Run](#run)
   * [Build & Deploy](#build--deploy)
-    + [Seed Database](#seed-database)
 
 <!-- tocstop -->
 
