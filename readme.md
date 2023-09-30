@@ -65,6 +65,8 @@ npm install
 
 You can use the following commands to seed the database with some sample users and products as well as destroy all data
 
+At the root folder (outside `frontend` and `backend` folder)
+
 ```
 # Import data
 npm run data:import
