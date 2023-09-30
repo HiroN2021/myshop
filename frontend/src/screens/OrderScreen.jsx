@@ -207,7 +207,7 @@ const OrderScreen = () => {
                                                 : (
                                                     <div>
                                                         <Button onClick={onApproveTest} style={{ marginBottom: '10px' }}>
-                                                            Text Pay Order
+                                                            Pay Order
                                                         </Button>
                                                         <div>
                                                             <PayPalButtons

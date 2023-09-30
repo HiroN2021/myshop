@@ -59,6 +59,7 @@ Change the JWT_SECRET and PAGINATION_LIMIT to what you want
 npm install
 cd frontend
 npm install
+cd ..
 ```
 
 ### Seed Database
