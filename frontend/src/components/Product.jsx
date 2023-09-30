@@ -8,7 +8,7 @@ const Product = ({ product }) => {
         <Card className="my-3 py-3 rounded">
             <Link to={`/product/${product._id}`}>
                 <Ratio aspectRatio={51 / 64}>
-                    <Card.Img src={product.image} variant="top" />
+                    <Card.Img src={product.image} variant="top" style={{objectFit: 'contain'}} />
                 </Ratio>
             </Link>
 
