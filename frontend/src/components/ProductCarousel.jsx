@@ -13,9 +13,9 @@ const ProductCarousel = () => {
             ? <Message variant='danger'>{error}</Message>
             : <Carousel pause='hover' className='bg-primary mb-4'>
                 {products.map(product => (
-                    <Carousel.Item key={product._id}>
+                    <Carousel.Item key={product._id} style={{ maxHeight: '80vh' }}>
                         <Link to={`/product/${product._id}`}>
-                            <Image src={product.image} alt={product.name} fluid />
+                            <Image src={product.image} alt={product.name} fluid style={{ maxWidth: '640px', maxHeight: '510px' }} />
                             <Carousel.Caption className='carousel-caption'>
                                 <h2>{product.name} (${product.price})</h2>
                             </Carousel.Caption>

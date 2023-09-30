@@ -1,12 +1,15 @@
 import { Card } from "react-bootstrap"
 import { Link } from "react-router-dom";
+import Ratio from "react-bootstrap/Ratio";
 import Rating from './Rating';
 
 const Product = ({ product }) => {
     return (
         <Card className="my-3 py-3 rounded">
             <Link to={`/product/${product._id}`}>
-                <Card.Img src={product.image} variant="top" />
+                <Ratio aspectRatio={51 / 64}>
+                    <Card.Img src={product.image} variant="top" />
+                </Ratio>
             </Link>
 
             <Card.Body>
